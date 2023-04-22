@@ -7,6 +7,5 @@
 RCT_EXTERN_METHOD(open:(NSDictionary *)options
                  withResolver:(RCTPromiseResolveBlock)resolve
                  withRejecter:(RCTPromiseRejectBlock)reject)
-+(BOOL)requiresMainQueueSetup   {   return NO;   };
 
 @end
